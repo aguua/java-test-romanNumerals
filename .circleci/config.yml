@@ -11,6 +11,12 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
+  junit_tests:
+    jobs:
+     - run:
+          name: JUnit Tests
+          working_directory: ./test
+          command: circleci build --job backend
       
 run_test: &run_tests
   steps:
