@@ -97,28 +97,24 @@ public class RomanNumeralsTest {
         assertEquals("CDII", romanNumeral.getRomanNumeral());
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void test575ToRomanNumberDLXXV() {
         romanNumeral = new RomanNumeral(575);
         assertEquals("DLXXV", romanNumeral.getRomanNumeral());
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void test911ToRomanNumberCMXI() {
         romanNumeral = new RomanNumeral(911);
         assertEquals("CMXI", romanNumeral.getRomanNumeral());
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void test1024ToRomanNumberMXXIV() {
         romanNumeral = new RomanNumeral(1024);
         assertEquals("MXXIV", romanNumeral.getRomanNumeral());
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void test3000ToRomanNumberMMM() {
         romanNumeral = new RomanNumeral(3000);

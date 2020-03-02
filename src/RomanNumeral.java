@@ -1,7 +1,7 @@
 public class RomanNumeral {
 
-    private static String[] romanNums= {"I", "IV", "V", "IX", "X", "XL", "L", "XC", "C"};
-    private static int[] nums ={1, 4, 5, 9, 10,40, 50, 90, 100};
+    private static String[] romanNums= {"I", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "CD", "D",  "CM", "M"};
+    private static int[] nums ={1, 4, 5, 9, 10,40, 50, 90, 100, 400, 500, 900, 1000};
 
     int number;
 
